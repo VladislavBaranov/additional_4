@@ -1,3 +1,3 @@
 module.exports = function multiply(first, second) {
-  // your solution
-}
+  return Number(first)*Number(second);
+  }
