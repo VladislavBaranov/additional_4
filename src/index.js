@@ -1,5 +1,3 @@
 module.exports = function multiply(first, second) {
-  var a = Number(first);
-  var b = Number(second);
-  return String(a*b);
+  return BigNumber(first).multiply(second).toString();
   }
